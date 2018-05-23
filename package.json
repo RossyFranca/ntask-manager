@@ -1,0 +1,20 @@
+{
+  "name": "ntask-api",
+  "version": "1.0.0",
+  "description": "API de gerenciamento de tarefas",
+  "main": "index.js",
+  "scripts": {
+    "start": " babel-node index.js"
+  },
+  "author": "abdullazin",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.4",
+    "sequelize": "^4.37.8",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
